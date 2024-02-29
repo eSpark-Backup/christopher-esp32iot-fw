@@ -12,16 +12,15 @@
 2. Then, open terminal on VS Code, run 'idf.py -p COMxx flash monitor' to flash your esp32 chip.                   
    **NOTE: DO NOT FORGET TO REPLACE xx with your COM Port number at which the ESP32 is connected.**
 ## Build & Flash via Flash Tool
-### Required Softwares
-1. [ESP32 Flash Download Tool](https://www.espressif.com/sites/default/files/tools/flash_download_tool_3.9.4.zip)
-2. [Teapot Processing IDE](https://processing.org/download)
+### Required Software
+1. [ESP32 Flash Download Tool](https://www.espressif.com/en/support/download/other-tools)
 
 ### Building & Flashing Procedure
 1. Connect the ESP32 Dev Module to the PC via MicroUSB cable.
 2. Open flash download tool and select options as shown in screenshot below and click OK to proceed.      
 ![image](https://github.com/eSpark-Consultants/bradfairman-fishpipe-firmware/assets/144008938/eeeed66f-e3f0-4014-b35e-5e5686e71752)
 3. Click erase button on new window that opens, to first completely wipe off the ESP32 memory.
-4. Upload the provided [Code Binaries](https://github.com/eSpark-Consultants/bradfairman-fishpipe-firmware/tree/Development/Firmware-Development/Arduino/MPU6050_DMP6/Binaries) as follows:
+4. Upload the provided [Code Binaries](https://github.com/eSpark-Consultants/christopher-esp32iot-fw/tree/main/Binaries) as follows:
     * MPU6050_DMP6.ino.bootloader.bin -> 0x1000
     * MPU6050_DMP6.ino.partitions.bin -> 0x8000
     * MPU6050_DMP6.ino.bin -> 0x10000
