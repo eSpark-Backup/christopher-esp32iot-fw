@@ -21,9 +21,9 @@
 ![image](https://github.com/eSpark-Consultants/bradfairman-fishpipe-firmware/assets/144008938/eeeed66f-e3f0-4014-b35e-5e5686e71752)
 3. Click erase button on new window that opens, to first completely wipe off the ESP32 memory.
 4. Upload the provided [Code Binaries](https://github.com/eSpark-Consultants/christopher-esp32iot-fw/tree/main/Binaries) as follows:
-    * MPU6050_DMP6.ino.bootloader.bin -> 0x1000
-    * MPU6050_DMP6.ino.partitions.bin -> 0x8000
-    * MPU6050_DMP6.ino.bin -> 0x10000
+    * bootloader.bin -> 0x1000
+    * partition-table.bin -> 0x8000
+    * EspAlexa.bin -> 0x10000
 5. Select the COM Port and press the start button to start the flashing process as shown in screenshot below:
 ![image](https://github.com/eSpark-Consultants/bradfairman-fishpipe-firmware/assets/144008938/df68ce66-abdf-4ec1-bc65-92f982b4d45a)
 
